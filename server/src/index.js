@@ -1,10 +1,14 @@
 const express = require("express");
+const routes = require("./features/routes");
 const app = express();
 const cors = require("cors");
+
+require("./db-connection");
 
 app.use(express.json());
 app.use(cors());
 
+app.use("/api", routes);
 app.get("/", (req, res) => {
     res.send("pong, Server is up and running " + new Date());
 });
