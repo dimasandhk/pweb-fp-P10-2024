@@ -30,7 +30,7 @@ const toggleMenu = () => {
     <div class="hidden sm:flex items-center space-x-4">
       <RouterLink to="/login">
         <button
-          class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+          class="bg-blue-500 text-white px-4 py-2 rounded-3xl hover:bg-blue-600"
         >
           Login
         </button>
@@ -107,7 +107,7 @@ const toggleMenu = () => {
       >
       <RouterLink to="/login" class="block">
         <button
-          class="w-full bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+          class="w-full bg-blue-500 text-white px-4 py-2 rounded-3xl hover:bg-blue-600"
           @click="toggleMenu"
         >
           Login
