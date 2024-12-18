@@ -18,6 +18,9 @@ const toggleMenu = () => {
       <RouterLink to="/" class="text-gray-700 hover:text-blue-400 font-bold"
         >Home</RouterLink
       >
+      <a href="#feedback" class="text-gray-700 hover:text-blue-400 font-bold"
+        >Feedback</a
+      >
       <RouterLink to="/news" class="text-gray-700 hover:text-blue-400 font-bold"
         >News</RouterLink
       >
@@ -92,6 +95,12 @@ const toggleMenu = () => {
         class="block text-gray-700 hover:text-blue-400"
         @click="toggleMenu"
         >Home</RouterLink
+      >
+      <a
+        href="#feedback"
+        class="block text-gray-700 hover:text-blue-400"
+        @click="toggleMenu"
+        >Feedback</a
       >
       <RouterLink
         to="/news"
