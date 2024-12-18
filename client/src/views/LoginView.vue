@@ -62,7 +62,7 @@ export default {
     </div>
 
     <div
-      class="px-8 lg:px-36 py-14 border-2 rounded-xl w-full lg:w-auto custom-shadow"
+      class="px-8 lg:px-36 py-20 border-2 rounded-3xl w-full lg:w-auto custom-shadow"
     >
       <h1 class="text-4xl font-extrabold mb-8">Sign in to Continue</h1>
       <form @submit="handleSubmit">

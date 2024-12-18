@@ -67,7 +67,7 @@ export default {
           <h1 class="text-3xl md:text-3xl font-extrabold">
             We care about the world
           </h1>
-          <p class="mt-4 w-full md:w-1/2 text-[#9a9a9a] font-bold">
+          <p class="mt-4 w-full md:w-1/2 text-[#9a9a9a] font-reguler">
             We are a group of people who care about the world. We want to make
             the world a better place by helping those in need. We believe that
             everyone deserves a chance to live a better life. That's why we are
@@ -89,7 +89,7 @@ export default {
         <h3 class="text-4xl text-[#353535] font-extrabold text-center">
           Be The <span class="text-blue-400">Change</span>
         </h3>
-        <p class="text-lg mt-6 font-bold text-[#9a9a9a] text-center">
+        <p class="text-lg mt-6 font-medium text-[#9a9a9a] text-center">
           We are a group of people who care about the world. We want to make the
           world a better place by helping those in need. We believe that
           everyone deserves a chance to live a better life. That's why we are
@@ -142,7 +142,7 @@ export default {
         <h3 class="text-4xl text-[#353535] font-extrabold text-center">
           Stay Up To <span class="text-blue-400">Date</span>
         </h3>
-        <p class="text-lg mt-6 font-bold text-[#9a9a9a] text-center">
+        <p class="text-lg mt-6 font-medium text-[#9a9a9a] text-center">
           Mattis et aliquam fermentum sed sagittis eu elit mauris. Nisl eros vel
           neque vitae lorem molestie.
         </p>
@@ -324,6 +324,6 @@ export default {
 }
 
 .custom-shadow {
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.9);
 }
 </style>
