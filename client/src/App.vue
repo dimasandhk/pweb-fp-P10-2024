@@ -15,22 +15,22 @@ const toggleMenu = () => {
       <img src="../public/wcare.svg" alt="wcare" class="h-8 mr-4" />
     </div>
     <div class="hidden sm:flex flex-1 justify-center space-x-4">
-      <RouterLink to="/" class="text-gray-700 hover:text-blue-500 font-bold"
+      <RouterLink to="/" class="text-gray-700 hover:text-blue-400 font-bold"
         >Home</RouterLink
       >
-      <RouterLink to="/news" class="text-gray-700 hover:text-blue-500 font-bold"
+      <RouterLink to="/news" class="text-gray-700 hover:text-blue-400 font-bold"
         >News</RouterLink
       >
       <RouterLink
         to="/crowdfund"
-        class="text-gray-700 hover:text-blue-500 font-bold"
+        class="text-gray-700 hover:text-blue-400 font-bold"
         >Crowdfund</RouterLink
       >
     </div>
     <div class="hidden sm:flex items-center space-x-4">
       <RouterLink to="/login">
         <button
-          class="bg-blue-500 text-white px-4 py-2 rounded-3xl hover:bg-blue-600"
+          class="bg-blue-400 text-white px-4 py-2 rounded-3xl hover:bg-blue-500"
         >
           Login
         </button>
@@ -89,25 +89,25 @@ const toggleMenu = () => {
     <div class="px-8 py-6 space-y-4">
       <RouterLink
         to="/"
-        class="block text-gray-700 hover:text-blue-500"
+        class="block text-gray-700 hover:text-blue-400"
         @click="toggleMenu"
         >Home</RouterLink
       >
       <RouterLink
         to="/news"
-        class="block text-gray-700 hover:text-blue-500"
+        class="block text-gray-700 hover:text-blue-400"
         @click="toggleMenu"
         >News</RouterLink
       >
       <RouterLink
         to="/crowdfund"
-        class="block text-gray-700 hover:text-blue-500 font-bold"
+        class="block text-gray-700 hover:text-blue-400 font-bold"
         @click="toggleMenu"
         >Crowdfund</RouterLink
       >
       <RouterLink to="/login" class="block">
         <button
-          class="w-full bg-blue-500 text-white px-4 py-2 rounded-3xl hover:bg-blue-600"
+          class="w-full bg-blue-400 text-white px-4 py-2 rounded-3xl hover:bg-blue-500"
           @click="toggleMenu"
         >
           Login
