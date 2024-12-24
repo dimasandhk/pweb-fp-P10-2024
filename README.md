@@ -22,3 +22,4 @@ sebagaimana dijelaskan pada gdocs berikut:<br>
 ## Pembagian Tugas
 
 -   Dimas Andhika Diputra mengerjakan bagian 1 (Home)
+-   I Dewa Made Satya Raditya mengerjakan bagian 2 (User Dashboard)
