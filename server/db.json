@@ -1,0 +1,46 @@
+{
+    "crowdfunds": [
+      {
+        "id": 1,
+        "name": "Project A",
+        "description": "Description for Project A",
+        "goal": 10000,
+        "raised": 5000
+      },
+      {
+        "id": 2,
+        "name": "Project B",
+        "description": "Description for Project B",
+        "goal": 20000,
+        "raised": 15000
+      },
+      {
+        "id": 3,
+        "name": "Project C",
+        "description": "Description for Project C",
+        "goal": 30000,
+        "raised": 25000
+      },
+      {
+        "id": 4,
+        "name": "Project D",
+        "description": "Description for Project D",
+        "goal": 30000,
+        "raised": 25000
+      },
+      {
+        "id": 5,
+        "name": "Project E",
+        "description": "Description for Project E",
+        "goal": 30000,
+        "raised": 25000
+      },
+      {
+        "id": 6,
+        "name": "Project F",
+        "description": "Description for Project F",
+        "goal": 30000,
+        "raised": 25000
+      }
+    ]
+  }
