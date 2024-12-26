@@ -32,7 +32,8 @@ const router = createRouter({
     {
       path: '/crowdfund/:id',
       name: 'CrowdFundDetail',
-      component: CrowdFundDetail
+      component: CrowdFundDetail,
+      props: true,
     }
   ],
 });

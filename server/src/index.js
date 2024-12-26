@@ -4,13 +4,14 @@ const app = express();
 const cors = require("cors");
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+const authRoutes = require('./features/auth/auth.routes');
 
 dotenv.config();
 
 require("./db-connection");
 const mongoURI = 'mongodb://localhost:27017/your-database-name';
 
-
+app.use('/api', authRoutes);
 app.use(express.json());
 app.use(cors());
 
@@ -21,16 +22,20 @@ app.get("/", (req, res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log("Server is up and running on port 3000");
+    console.log(`Server is running on port: ${port}`);
 });
 
 mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-  });
-  const crowdfundRoutes = require('./features/crowdfund/crowdfund.routes');
+});
+
+const crowdfundRoutes = require('./features/crowdfun/crowdfund.routes');
 app.use('/api/crowdfunds', crowdfundRoutes);
 
-app.listen(port, () => {
-  console.log(`Server is running on port: ${port}`);
-});
+mongoose.connect('mongodb://localhost:27017/crowdfund', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
+
+  app.use('/api', authRoutes);

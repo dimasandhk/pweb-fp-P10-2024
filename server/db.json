@@ -1,46 +1,59 @@
 {
+    "login": {
+      "email": "dimsam@gmail.com",
+      "password": "dimsum@123"
+    },
     "crowdfunds": [
       {
         "id": 1,
-        "name": "Project A",
-        "description": "Description for Project A",
+        "name": "Rekonstruksi tempat usaha",
+        "description": "bantu rekonstruksi tempat pangkas rambutnya mas andr-eh mbak andrianna yang terkena serangan rudal israel",
         "goal": 10000,
-        "raised": 5000
+        "raised": 5000,
+        "image": "/img/masandre.jpg"
       },
       {
         "id": 2,
-        "name": "Project B",
-        "description": "Description for Project B",
+        "name": "Bantu Pendidikan Anak-Anak",
+        "description": "anak-anak SDN 420 mojokerto memerlukan bantuan untuk memperbaiki fasilitas sekolahnya akibat dana BOS dibawa kabur oknum kepala sekolah",
         "goal": 20000,
-        "raised": 15000
+        "raised": 15000,
+        "image": "/img/sekula.jpg"
       },
       {
         "id": 3,
-        "name": "Project C",
-        "description": "Description for Project C",
+        "name": "Santunan untuk Korban Bencana Alam",
+        "description": "Lorem ipsum dolor sit amet.",
         "goal": 30000,
-        "raised": 25000
+        "raised": 25000,
+        "image": "/img/natdis.jpg"
       },
       {
         "id": 4,
-        "name": "Project D",
-        "description": "Description for Project D",
+        "name": "Makan Siang Gratis",
+        "description": "memberikan makan siang sehat untuk anak-anak jalanan di kota besar setiap hari Minggu.",
         "goal": 30000,
-        "raised": 25000
+        "raised": 25000,
+        "image": "/img/mangan.jpg"
       },
       {
         "id": 5,
-        "name": "Project E",
+        "name": "Pengembangan Aplikasi Belajar Bahasa Jomok",
         "description": "Description for Project E",
         "goal": 30000,
-        "raised": 25000
+        "raised": 25000,
+        "image": "/img/sahabathytam.jpg"
       },
       {
         "id": 6,
-        "name": "Project F",
+        "name": "Penanaman 10.000 Pohon di Kawasan Kritis",
         "description": "Description for Project F",
         "goal": 30000,
-        "raised": 25000
+        "raised": 25000,
+        "image": "/img/puun.jpg"
       }
+    ],
+    "donations":[
+
     ]
   }
